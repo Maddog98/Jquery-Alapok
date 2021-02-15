@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+main{
+    max-width: max-content;
+}
+
+#jatekter {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:10 px;
+}
+
+#jatekter div img {
+    width: 50%;
+    
+}
+
+#jatekter div{
+    padding: 10px;
+    background-color: blue;
+}
